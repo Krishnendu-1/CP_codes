@@ -127,7 +127,7 @@ void multiserlearn(){
     void learnmap(){  // Maps are used to sort the data and relate the given data with the integer value 
         map<int,string>mp;
         mp[1]="Krishnendu";
-        mp[2]="love to read";
+        mp[2]="love";
 
         for(auto i:mp){
             cout<<i.first<<" "<<i.second;
@@ -145,7 +145,7 @@ mp.erase(2);
     void multimp(){
         multimap<int,string>mmp;
         mmp.emplace(pair<int,string>(3,"krishnendu"));// only pair is allowed for input taking
-        mmp.emplace(pair<int,string>(3,"Suraj"));
+        mmp.emplace(pair<int,string>(3,"disha"));
         for(auto k:mmp){
             cout<<k.first<<k.second;
         }cout<<endl;
